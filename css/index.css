@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e97474;
+}
+
+.title {
+    margin-top: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.font {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.fa-address-book {
+    font-size: 5em;
+}
+
+.row {
+    margin-top: 25px;
+}
+
+.col1,
+.col2 {
+    background: #ffffff;
+    margin: 2px;
+    padding: 5px;
+    height: 399px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.imp1 input, .imp2 input, .imp3 input {
+    padding: 5px;
+    margin: 25px;
+    border: 1px #e97474 solid;
+    border-radius: 3px; 
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+input{
+    width: 200px;
+    height: 15px;
+}
+
+.col1{
+    width: 645px;
+    margin-left: 13px;
+}
+.col2{
+    position: relative;
+    bottom: 410px;
+    left: 673px;
+    width: 648px;
+}
+
+.contacts {
+    width: 200px;
+    height: 25px;
+}
+
+.contacts:hover {
+    border: 1px #e97474 solid;
+}
+
+.info-contact{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: scroll;
+    overflow: auto;
+    height: 250px;
+    overflow-x:hidden;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+thead{
+    background: #e97474;
+    color: #ffffff;
+}
+
+tbody tr td{
+    text-align: start;
+    font-size: 11.6px;
+}
+
+.btn-Guardar {
+    margin-top: 15px;
+    border: 1px #19191a solid;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    color: #ffffff;
+    background: #696969;
+}
+
+.btn-Guardar:hover {
+    cursor: pointer;
+    border: 1px rgb(160, 207, 255) solid;
+    background: rgb(160, 207, 255);
+}
